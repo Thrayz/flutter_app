@@ -1,0 +1,83 @@
+# Miscellaneous
+*.iml
+*.log
+*.swp
+*.tmp
+*.lock
+*.DS_Store
+.idea
+.vscode
+
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+pubspec.lock
+
+# iOS specific
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/Flutter/flutter_export_environment.sh
+
+# Android specific
+android/app/src/main/res/drawable/
+android/app/src/main/res/raw/
+android/app/src/main/res/mipmap-*/
+android/app/src/main/res/values/google_maps_api.xml
+android/key.properties
+
+# Generated files
+lib/generated_plugin_registrant.dart
+
+# Output files
+*.apk
+*.aab
+*.ipa
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# macOS specific
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+
+# Web specific
+web/flutter_service_worker.js
+web/manifest.json
+web/icons/
+
+# Test coverage
+coverage/
+
+# VS Code specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# IntelliJ/Android Studio specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Other
+.env
+.env.*
+.secret
+
+firebase.exe
+
+*.html
+*/firebase_options.dart
